@@ -1,0 +1,22 @@
+    /*--caf-noir: #312509ff;
+    --paynes-gray: #475e78ff;
+    --jasmine: #fce38aff;
+    --cool-gray: #a7adc6ff;
+    --white: #ffffffff;*/
+
+nav{
+    background-color: #364f6b;
+    overflow: hidden;
+ 
+}
+nav a{
+    font-family: Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+}
+nav a:hover {
+    background-color: #a7adc6ff;
+    color: white;
+}
