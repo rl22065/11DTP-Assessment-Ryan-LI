@@ -3,7 +3,20 @@
     --jasmine: #fce38aff;
     --cool-gray: #a7adc6ff;
     --white: #ffffffff;*/
-
+.NavBar{
+    font-family: Helvetica;
+}
+h4{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #364f6b;
+    margin: 0%;
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+    justify-content: space-between;
+}
 nav{
     background-color: #364f6b;
     overflow: hidden;
@@ -14,9 +27,23 @@ nav a{
     color: white;
     text-decoration: none;
     font-size: 30px;
+    float: left;
     padding: 20px;
+}
+nav a img{
+/* no use yet */
+padding: 0%;
 }
 nav a:hover {
     background-color: #a7adc6ff;
     color: white;
+}
+nav a img:hover {
+    background-color: #364f6b;
+    color: white;
+}
+#Logo{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
 }
