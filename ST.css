@@ -3,6 +3,9 @@
     --jasmine: #fce38aff;
     --cool-gray: #a7adc6ff;
     --white: #ffffffff;*/
+body{
+    overflow: scroll;
+}
 .NavBar{
     font-family: Helvetica;
 }
@@ -20,6 +23,7 @@ h4{
 nav{
     background-color: #364f6b;
     overflow: hidden;
+
  
 }
 nav a{
@@ -47,3 +51,9 @@ nav a img:hover {
     padding: 0%;
     border: 0%;
 }
+#Video{
+    position: fixed;
+    right: 0;
+    width: 100%;
+    overflow: scroll;
+} 
