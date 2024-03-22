@@ -61,7 +61,18 @@ nav a img:hover {
     
 }
 .text{
-    position: absolute;
-    left: 50;
-    top: 10;
+    font-size: medium;
+    font-family: helvetica;
+
+}
+h2{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 img{
+    margin-right: 30px;
+}
+#big{
+    font-size: xx-large;
 }
