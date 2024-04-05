@@ -86,9 +86,9 @@
     height: 120px;
   }
   .title {
-    width: 100%;
+    width: 125%;
     transition: transform 0.5s;
-    opacity: 50%;
+    opacity: 75%;
   }
   .card:hover .title {
     transform: translate3d(0%, -50px, 100px);
@@ -157,4 +157,7 @@ nav a img:hover {
 h2{
   color: white;
   font-family: helvetica;
+}
+.big{
+  width: 200%;
 }
