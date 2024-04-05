@@ -162,5 +162,7 @@ h2{
   width: 200%;
 }
 hr{
-    color: white;
+    background-color: white;
+    color: #191c29;
+    height: 5px;
 }
